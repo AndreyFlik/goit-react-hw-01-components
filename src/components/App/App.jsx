@@ -6,10 +6,10 @@ import TransactionHistory from "../TransactionHistory/TransactionHistory";
 const App = () => {
   return (
     <>
-      <Profile></Profile>
-      <Statistics></Statistics>
-      <FriendList></FriendList>
-      <TransactionHistory></TransactionHistory>
+      <Profile />
+      <Statistics />
+      <FriendList />
+      <TransactionHistory />
     </>
   );
 };

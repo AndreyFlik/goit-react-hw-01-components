@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const Description = ({ avatar, username, tag, location }) => {
   return (
@@ -9,6 +10,13 @@ const Description = ({ avatar, username, tag, location }) => {
       <p class="location">{location}</p>
     </div>
   );
+};
+
+Description.propTypes = {
+  avatar: PropTypes.string,
+  username: PropTypes.string,
+  tag: PropTypes.string,
+  location: PropTypes.string,
 };
 
 export default Description;

@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const FriendListItem = ({ stats }) => {
   return (
@@ -8,6 +9,13 @@ const FriendListItem = ({ stats }) => {
       <p class="name">{stats.name}</p>
     </li>
   );
+};
+
+FriendListItem.propTypes = {
+  stats: PropTypes.shape({
+    avatar: PropTypes.string,
+    name: PropTypes.string,
+  }),
 };
 
 export default FriendListItem;

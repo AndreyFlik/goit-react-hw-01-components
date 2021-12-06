@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const Stats = ({ stats }) => {
   return (
@@ -21,5 +22,7 @@ const Stats = ({ stats }) => {
     </ul>
   );
 };
+
+Stats.propTypes = { stats: PropTypes.objectOf(PropTypes.number) };
 
 export default Stats;
