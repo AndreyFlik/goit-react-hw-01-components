@@ -3,10 +3,6 @@ import Statis from "../Statistics/Statis/Statis";
 
 import React from "react";
 
-// const idList = dataList.map((list) => {
-//   return list;
-// });
-// console.log(idList);
 const Statistics = () => {
   return (
     <section class="statistics">

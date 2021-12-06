@@ -1,28 +1,15 @@
 import React from "react";
 
-const Statis = (list) => {
+const Statis = ({ tittle, stats }) => {
   return (
-    <div>
-      <h2 class="title">Upload stats</h2>
+    <div style={{ backgroundColor: "blue" }}>
+      <h2 class="title">{tittle}</h2>
       <ul class="stat-list">
         <li class="item">
-          <span class="label">{list.label}</span>
-          <span class="percentage">{list.percentage}</span>
-        </li>
-        <li class="item">
-          <span class="label">{list.label}</span>
-          <span class="percentage">{list.percentage}</span>
-        </li>
-        <li class="item">
-          <span class="label">.pdf</span>
-          <span class="percentage">{list.percentage}</span>
-        </li>
-        <li class="item">
-          <span class="label">{list.label}</span>
-          <span class="percentage">{list.percentage}</span>
+          <span class="label">{stats.label}</span>
+          <span class="percentage">{stats.percentage}</span>
         </li>
       </ul>
-      )
     </div>
   );
 };
