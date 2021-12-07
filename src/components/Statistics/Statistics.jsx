@@ -1,16 +1,19 @@
 import dataList from "../../Data/data.json";
 import Statis from "../Statistics/Statis/Statis";
 import Title from "../Statistics/Title/Title";
+import s from "../Statistics/Statistics.module.css";
 
 import React from "react";
 
 const Statistics = () => {
   return (
-    <section class="statistics">
+    <section class={s.statistics}>
       <Title title="Upload stats" />
-      {dataList.map((list) => (
-        <Statis key={list.id} stats={list} />
-      ))}
+      <div className={s.wrap}>
+        {dataList.map((list) => (
+          <Statis key={list.id} stats={list} />
+        ))}
+      </div>
     </section>
   );
 };

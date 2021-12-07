@@ -1,13 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
-
+import s from "./Transaction.module.css";
 const Transaction = ({ items }) => {
   return (
-    <tbody>
+    <tbody className={s.bgc}>
       <tr>
-        <td>{items.type}</td>
-        <td>{items.amount}</td>
-        <td>{items.currency}</td>
+        <td className={s.textTable}>{items.type}</td>
+        <td className={s.textTable}>{items.amount}</td>
+        <td className={s.textTable}>{items.currency}</td>
       </tr>
     </tbody>
   );

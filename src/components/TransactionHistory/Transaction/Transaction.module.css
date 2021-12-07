@@ -1,0 +1,6 @@
+.textTable {
+  text-align: center;
+}
+.bgc:nth-child(even) {
+  background-color: hotpink;
+}

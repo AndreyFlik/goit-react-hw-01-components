@@ -1,0 +1,14 @@
+.notStatus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+  background-color: blue;
+}
+.status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+  background-color: yellow;
+}

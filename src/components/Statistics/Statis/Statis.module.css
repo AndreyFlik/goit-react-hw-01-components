@@ -1,0 +1,14 @@
+.list {
+  display: flex;
+  justify-content: center;
+}
+
+.statList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blanchedalmond;
+  border: 1px solid red;
+  flex-direction: column;
+  width: 100px;
+}

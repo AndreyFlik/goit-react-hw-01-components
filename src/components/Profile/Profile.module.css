@@ -1,0 +1,10 @@
+.ProfileWrap {
+  border: 1px solid blue;
+  background-color: grey;
+  width: 275px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,9 @@
+.statistics {
+  background-color: chocolate;
+  border: 1px solid red;
+  width: 500px;
+}
+.wrap {
+  display: flex;
+  justify-content: center;
+}
