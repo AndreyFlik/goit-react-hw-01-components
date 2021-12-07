@@ -7,7 +7,7 @@ import React from "react";
 
 const Statistics = () => {
   return (
-    <section class={s.statistics}>
+    <section className={s.statistics}>
       <Title title="Upload stats" />
       <div className={s.wrap}>
         {dataList.map((list) => (
